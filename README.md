@@ -6,3 +6,5 @@ Conreality Software Development Kit (SDK) for Elixir
 [![Hex.pm downloads](https://img.shields.io/hexpm/dt/conreality.svg)](https://hex.pm/packages/conreality)
 [![Travis CI build status](https://img.shields.io/travis/conreality/conreality.ex/master.svg)](https://travis-ci.org/conreality/conreality.ex)
 [![Coveralls.io code coverage](https://img.shields.io/coveralls/conreality/conreality.ex/master.svg)](https://coveralls.io/github/conreality/conreality.ex)
+
+https://sdk.conreality.org/elixir/
