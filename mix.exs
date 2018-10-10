@@ -67,6 +67,8 @@ defmodule Conreality.MixProject do
     # See: https://hexdocs.pm/mix/Mix.Tasks.Deps.html
     [
       {:drylib, ">= 0.0.0"},
+      {:grpc, "~> 0.3.0-alpha.2"},
+      {:protobuf, "~> 0.5.4"},
       {:credo, "~> 0.10", only: [:dev, :test]},
       {:dialyxir, "~> 0.5", only: [:dev, :test]},
       {:earmark, "~> 1.2", only: :dev},
