@@ -1,0 +1,9 @@
+# See: https://docs.travis-ci.com/user/languages/elixir/
+language: elixir
+sudo: false
+elixir:
+  - 1.7.3
+otp_release:
+  - 21.1
+script:
+  - MIX_ENV=test mix do deps.get, compile, coveralls.travis
